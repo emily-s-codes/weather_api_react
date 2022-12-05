@@ -6,7 +6,7 @@ function App() {
   const [cityName, setCityName] = useState("Berlin");
 
   useEffect(() => {
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&lang=de&appid=${process.env.REACT_APP_API_KEY}&units=metric`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&lang=en&appid=${process.env.REACT_APP_API_KEY}&units=metric`)
       .then(res => res.json())
       .then((weather) => {
         setWeather(weather)
