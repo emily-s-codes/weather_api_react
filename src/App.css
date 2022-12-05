@@ -46,10 +46,15 @@ p {
 
 .wrapper .weatherOverview {
   font-size: 2rem;
-
 }
 
 .wrapper p {
   color: #2B3A55;
   margin: 5px;
+}
+
+.cityInput {
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid #2B3A55;
 }
