@@ -25,6 +25,7 @@ function App() {
   let weatherIconCode = weather.weather[0].icon;
   let userInputCityEl = document.getElementById("cityInput");
 
+
   return (
     <div className="App">
       <div className='wrapper'>
@@ -40,6 +41,7 @@ function App() {
         <p>Current: {weather.main.temp}°C</p>
         <p>Wind speed: {weather.wind.speed} m/sec</p>
         <p>Local time: {updatedLocalTime}</p>
+        <p><a href={`https://www.google.com/maps/place/${weather.coord.lat},${weather.coord.lon}`}>[{weather.coord.lat}, {weather.coord.lon}]</a></p>
       </div>
     </div>
   );
