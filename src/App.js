@@ -6,7 +6,7 @@ function App() {
   const [cityName, setCityName] = useState("Berlin");
   const [units, setUnits] = useState("metric")
   const [metric, setMetric] = useState(true)
-  const [city, setCity] = useState("")
+  const [city, setCity] = useState("Leipzig")
   const [active, setActive] = useState(false)
 
   useEffect(() => {

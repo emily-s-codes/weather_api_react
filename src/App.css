@@ -15,6 +15,12 @@
   justify-content: center;
 }
 
+button,
+p,
+label {
+  font-family: "Roboto-Regular", sans-serif;
+}
+
 h1 {
   font-family: 'Roboto-Regular', sans-serif;
   font-size: 3rem;
@@ -52,11 +58,6 @@ h1 {
 
 .hideSearch {
   display: none;
-}
-
-button,
-p {
-  font-family: "Roboto-Regular", sans-serif;
 }
 
 .wrapper button {
