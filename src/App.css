@@ -15,6 +15,12 @@
   justify-content: center;
 }
 
+h1 {
+  font-family: 'Roboto-Regular', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
 .wrapper {
   padding: 50px;
   margin: 20px;
@@ -23,6 +29,29 @@
   border-radius: 10px;
   text-align: center;
   background-color: #F2E5E5;
+}
+
+.searchTerms {
+  display: flex;
+  flex-direction: column;
+}
+
+.unitsSection {
+  margin: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.unitsSection label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.hideSearch {
+  display: none;
 }
 
 button,
